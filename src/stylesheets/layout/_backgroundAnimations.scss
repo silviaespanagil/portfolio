@@ -1,0 +1,78 @@
+/*.Neonline {
+  width: 150px;
+  border-bottom: 4px solid $colorLightPink;
+  box-shadow: 0px 0px 60px 20px $colorPink;
+  border-radius: 25%;
+  position: absolute;
+  top: 300px;
+
+  animation: neonline 8s infinite;
+}
+
+@keyframes neonline {
+  from {
+    top: 0;
+    left: 0;
+    transform: rotate(25deg);
+  }
+  to {
+    top: 85%;
+    left: 300px;
+    transform: rotate(120deg) scale(2);
+  }
+}*/
+
+.NeonSquare {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  border: 9px solid $colorLightPink;
+  box-shadow: 0px 0px 60px 20px $colorPink;
+  top: 40%;
+  animation: neonSquare 10s infinite;
+}
+@keyframes neonSquare {
+  0% {
+    transform: rotate(0);
+    border: 9px solid $colorLightPink;
+    box-shadow: 0px 0px 60px 20px $colorPink;
+  }
+  50% {
+    transform: rotate(90deg);
+    border: 9px solid $colorDirtyWhite;
+    box-shadow: 0px 0px 60px 20px $colorBlueGray;
+  }
+  100% {
+    transform: rotate(180deg);
+    border: 9px solid $colorLightPink;
+    box-shadow: 0px 0px 60px 20px $colorPink;
+  }
+}
+
+.NeonCircle {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  border: 9px solid $colorLightPink;
+  box-shadow: 0px 0px 60px 20px $colorPink;
+  top: 40%;
+  transform: rotate(45deg);
+  animation: neonSquare2 10s infinite;
+}
+@keyframes neonSquare2 {
+  0% {
+    transform: rotate(45deg0) scale(0.8);
+    border: 9px solid $colorDirtyWhite;
+    box-shadow: 0px 0px 60px 20px $colorBlueGray;
+  }
+  50% {
+    transform: rotate(135deg);
+    border: 9px solid $colorLightPink;
+    box-shadow: 0px 0px 60px 20px $colorPink;
+  }
+  100% {
+    transform: rotate(225deg) scale(3);
+    border: 9px solid $colorDirtyWhite;
+    box-shadow: 0px 0px 60px 20px $colorBlueGray;
+  }
+}
