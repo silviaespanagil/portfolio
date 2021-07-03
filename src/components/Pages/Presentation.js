@@ -9,7 +9,7 @@ const Presentation = () => {
         </div>
         <div className="Neonline" />
         <div className="NeonSquare" />
-        <div className="NeonCircle" />
+        <div className="NeonBigSquare" />
         <div className="presentation__portrait">
           <img
             className="presentation__portrait--img"

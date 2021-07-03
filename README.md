@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Things I learned while doing my Portfolio
+
+- transform: translateZ(0);
+  overflow: hidden;
+
+  While doing my hero animation found out that the scaled square did not respond as expected causing horizontal and vertical scroll, even using overflow hidden. Found out that with a transform: translateZ(0); it could be fixed. But then I thought the contain:strict; could work an went for it instead.
+
 ## Available Scripts
 
 In the project directory, you can run:
