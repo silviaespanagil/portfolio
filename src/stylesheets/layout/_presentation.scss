@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient($colorNoBlack, $colorPink);
+  background: $colorNoWhite;
   contain: strict;
   &__portrait {
     transform: scale(0.5);
@@ -17,13 +17,14 @@
   font-family: $fontMono;
   font-weight: normal;
   font-size: 0.9rem;
-  color: $colorWhite;
+  color: $colorNoBlack;
   overflow: hidden;
-  border-right: 0.15em solid $colorWhite;
-  text-shadow: $colorLightPink 0 2px 5px;
+  border-right: 0.15em solid $colorNoBlack;
+  text-shadow: $colorPink2 0 2px 5px;
   white-space: nowrap;
   letter-spacing: 0.05em;
   animation: typing 5s steps(35, end), cursor 0.6s step-end infinite;
+  margin-top: 30px;
 
   @include mobileMedium() {
     font-size: 1.5rem;
@@ -36,15 +37,15 @@
 @keyframes typing {
   0% {
     width: 0;
-    text-shadow: cyan 0 2px 10px;
+    text-shadow: $colorAqua 0 2px 10px;
   }
   50% {
     width: 50%;
-    text-shadow: fuchsia 0 2px 10px;
+    text-shadow: $colorPink 0 2px 10px;
   }
   100% {
     width: 100%;
-    text-shadow: yellow 0 2px 10px;
+    text-shadow: $colorYellow 0 2px 10px;
   }
 }
 
@@ -54,61 +55,6 @@
     border-color: transparent;
   }
   50% {
-    border-color: $colorWhite;
-  }
-}
-
-.NeonSquare {
-  position: absolute;
-  width: 250px;
-  height: 250px;
-  border: 9px solid $colorLightPink;
-  box-shadow: 0 0 60px 20px $colorPink;
-  top: 39%;
-  animation: neonSquare 10s infinite;
-}
-@keyframes neonSquare {
-  0% {
-    transform: rotate(0);
-    border: 9px solid $colorLightPink;
-    box-shadow: 0 0 60px 20px $colorPink;
-  }
-  50% {
-    transform: rotate(90deg);
-    border: 9px solid $colorDirtyWhite;
-    box-shadow: 0 0 60px 20px $colorBlueGray;
-  }
-  100% {
-    transform: rotate(180deg);
-    border: 9px solid $colorLightPink;
-    box-shadow: 0 0 60px 20px $colorPink;
-  }
-}
-
-.NeonBigSquare {
-  position: absolute;
-  width: 250px;
-  height: 250px;
-  border: 9px solid $colorLightPink;
-  box-shadow: 0 0 60px 20px $colorPink;
-  top: 40%;
-  transform: rotate(45deg);
-  animation: neonSquare2 10s infinite;
-}
-@keyframes neonSquare2 {
-  0% {
-    transform: rotate(45deg0) scale(0.8);
-    border: 9px solid $colorDirtyWhite;
-    box-shadow: 0 0 60px 20px $colorBlueGray;
-  }
-  50% {
-    transform: rotate(135deg);
-    border: 9px solid $colorLightPink;
-    box-shadow: 0 0 60px 20px $colorPink;
-  }
-  100% {
-    transform: rotate(225deg) scale(2.2);
-    border: 9px solid $colorDirtyWhite;
-    box-shadow: 0 0 60px 0 $colorBlueGray;
+    border-color: $colorNoBlack;
   }
 }
