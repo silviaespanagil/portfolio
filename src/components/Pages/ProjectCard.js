@@ -1,33 +1,34 @@
-import portrait from "../../images/silvia.png";
+import React from "react";
 
-const ProjectCard = () => {
+const ProjectCard = (props) => {
   return (
     <>
-      <li>
-        <article className="projects__card">
-          <h2 className="projects__card--title">Nombre proyecto</h2>
-          <img
-            className="projects__card--img"
-            src={portrait}
-            alt="Foto proyecto"
-          />
-          <p className="projects__card--description">Descripción proyecto</p>
+      {}
+      <article className="projects__card">
+        <h2 className="projects__card--title">{props.name}</h2>
+        <img
+          className="projects__card--img"
+          src={props.img}
+          alt="Foto proyecto"
+        />
+        <p className="projects__card--description">{props.description}</p>
+        <div projects__card--links>
           <a
-            href="www.github.com/silviaespanagil"
+            href={props.codeLink}
             alt="link código"
             className="projects__card--code"
           >
             Ver código
           </a>
           <a
-            href="www.github.com/silviaespanagil"
+            href={props.appLink}
             alt="link código"
             className="projects__card--web"
           >
             Web
           </a>
-        </article>
-      </li>
+        </div>
+      </article>
     </>
   );
 };

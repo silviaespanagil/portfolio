@@ -1,0 +1,26 @@
+.projects {
+  background: linear-gradient($colorLightPink, $colorDirtyWhite);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  &__card {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid $colorEggplant;
+    box-shadow: $colorPink 5px 8px 10px;
+    margin: 25px;
+    padding: 25px;
+    &:hover {
+      border: 3px solid $colorDarkGreen;
+      box-shadow: $colorEggplant 5px 8px 10px;
+      transform: scale(1.01);
+    }
+    &--img {
+      width: 250px;
+    }
+  }
+
+  &--links {
+    display: flex;
+  }
+}

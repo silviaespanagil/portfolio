@@ -1,3 +1,4 @@
+import React from "react";
 //COMPONENTS
 import Presentation from "./Pages/Presentation";
 import AboutMe from "./Pages/AboutMe";
@@ -11,7 +12,7 @@ function App() {
     <>
       <Presentation />
       <AboutMe />
-      <ProjectList />
+      <ProjectList />;
     </>
   );
 }
