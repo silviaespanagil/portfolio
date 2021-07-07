@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "name": "Directorio Rick and Morty",
+    "description": "Buscador alimentado vía API que brinda información sobre los personajes de la serie",
+    "codeLink": "https://github.com/silviaespanagil/modulo-3-evaluacion-final-silviaespanagil",
+    "appLink": "https://silviaespanagil.github.io/modulo-3-evaluacion-final-silviaespanagil/#/"
+  },
+  {
+    "id": "2",
+    "name": "Buscador de series",
+    "description": "Aplicación web alimentada vía API permite guardar series y agregarlas a favoritos",
+    "codeLink": "https://github.com/silviaespanagil/modulo-2-evaluacion-final-silviaespanagil",
+    "appLink": "http://silviaespanagil.github.io/modulo-2-evaluacion-final-silviaespanagil/"
+  },
+  {
+    "id": "3",
+    "name": "Juego - Adivina el número",
+    "description": "Juego de adivinanza en el que debes adivinar el número escogido por el ordenador. ¿Podrás ganar?",
+    "codeLink": "https://github.com/silviaespanagil/modulo-2-evaluacion-intermedia-silviaespanagil",
+    "appLink": "http://silviaespanagil.github.io/modulo-2-evaluacion-intermedia-silviaespanagil/"
+  },
+  {
+    "id": "4",
+    "name": "Website Layout",
+    "description": "Pixel perfect design to code proyect.",
+    "codeLink": "https://github.com/silviaespanagil/modulo-1-evaluacion-final-silviaespanagil",
+    "appLink": "https://silviaespanagil.github.io/modulo-1-evaluacion-final-silviaespanagil/"
+  }
+]

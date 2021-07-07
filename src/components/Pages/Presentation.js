@@ -7,7 +7,6 @@ const Presentation = () => {
         <div className="text-animation">
           <h2 className="text">Hola mundo, soy Silvia...</h2>
         </div>
-        <div className="Neonline" />
         <div className="NeonSquare" />
         <div className="NeonBigSquare" />
         <div className="presentation__portrait">

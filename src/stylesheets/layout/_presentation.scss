@@ -1,6 +1,5 @@
 .presentation {
   height: 100%;
-  width: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -8,8 +7,6 @@
   background: linear-gradient($colorNoBlack, $colorPink);
   //background: linear-gradient(#cd295a, #38adae);
   contain: strict;
-  //transform: translateZ(0);
-  //@debug: hidden;
   &__portrait {
     transform: scale(0.5);
   }
@@ -26,7 +23,6 @@
   border-right: 0.15em solid $colorWhite;
   text-shadow: $colorLightPink 0 2px 5px;
   white-space: nowrap;
-  margin: 0 auto;
   letter-spacing: 0.05em;
   animation: typing 5s steps(35, end), cursor 0.6s step-end infinite;
 
@@ -60,5 +56,60 @@
   }
   50% {
     border-color: $colorWhite;
+  }
+}
+
+.NeonSquare {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  border: 9px solid $colorLightPink;
+  box-shadow: 0 0 60px 20px $colorPink;
+  top: 39%;
+  animation: neonSquare 10s infinite;
+}
+@keyframes neonSquare {
+  0% {
+    transform: rotate(0);
+    border: 9px solid $colorLightPink;
+    box-shadow: 0 0 60px 20px $colorPink;
+  }
+  50% {
+    transform: rotate(90deg);
+    border: 9px solid $colorDirtyWhite;
+    box-shadow: 0 0 60px 20px $colorBlueGray;
+  }
+  100% {
+    transform: rotate(180deg);
+    border: 9px solid $colorLightPink;
+    box-shadow: 0 0 60px 20px $colorPink;
+  }
+}
+
+.NeonBigSquare {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  border: 9px solid $colorLightPink;
+  box-shadow: 0 0 60px 20px $colorPink;
+  top: 40%;
+  transform: rotate(45deg);
+  animation: neonSquare2 10s infinite;
+}
+@keyframes neonSquare2 {
+  0% {
+    transform: rotate(45deg0) scale(0.8);
+    border: 9px solid $colorDirtyWhite;
+    box-shadow: 0 0 60px 20px $colorBlueGray;
+  }
+  50% {
+    transform: rotate(135deg);
+    border: 9px solid $colorLightPink;
+    box-shadow: 0 0 60px 20px $colorPink;
+  }
+  100% {
+    transform: rotate(225deg) scale(2.2);
+    border: 9px solid $colorDirtyWhite;
+    box-shadow: 0 0 60px 0 $colorBlueGray;
   }
 }
