@@ -1,9 +1,15 @@
 .AboutMe {
   padding: 75px;
   background: $colorNoWhite;
+  background-image: url("../../images/circles/circleAqua.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: -250px 0;
+
   &__title {
     font-family: $fontMono;
     padding-bottom: 45px;
+    z-index: 99;
   }
   &__content {
     text-align: justify;

@@ -1,6 +1,9 @@
+import circleAqua from "../../images/circles/circleAqua.png";
+
 const AboutMe = () => {
   return (
     <>
+      <div className="AboutMe__line" />
       <article className="AboutMe">
         <h2 className="AboutMe__title">Hola mundo...</h2>
         <div className="AboutMe__content">
