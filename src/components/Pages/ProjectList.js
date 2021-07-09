@@ -6,7 +6,7 @@ import data from "../../data/projects.json";
 const ProjectList = () => {
   const projects = data.map((project) => {
     return (
-      <li key={project.id}>
+      <li className="projects__card" key={project.id}>
         <ProjectCard
           name={project.name}
           description={project.description}

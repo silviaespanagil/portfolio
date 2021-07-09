@@ -4,7 +4,7 @@ const ProjectCard = (props) => {
   return (
     <>
       {}
-      <article className="projects__card">
+      <article className="projects__card-items">
         <h2 className="projects__card--title">{props.name}</h2>
         <img
           className="projects__card--img"
@@ -12,7 +12,7 @@ const ProjectCard = (props) => {
           alt="Foto proyecto"
         />
         <p className="projects__card--description">{props.description}</p>
-        <div projects__card--links>
+        <div className="projects__card--links">
           <a
             href={props.codeLink}
             alt="link código"

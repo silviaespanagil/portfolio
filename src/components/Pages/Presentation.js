@@ -1,5 +1,4 @@
-import portrait from "../../images/silvia.png";
-import portrait2 from "../../images/silvia2.png";
+import portrait from "../../images/silvia2.png";
 
 const Presentation = () => {
   return (
@@ -7,7 +6,7 @@ const Presentation = () => {
       <section className="presentation">
         <img
           className="presentation__portrait--img"
-          src={portrait2}
+          src={portrait}
           alt="Silvia"
         />
         <div className="text-animation">
