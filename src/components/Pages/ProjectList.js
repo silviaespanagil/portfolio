@@ -19,7 +19,7 @@ const ProjectList = () => {
   });
   return (
     <>
-      <h2 className="projects">Proyectos</h2>
+      <h2 className="projectsTitle">Proyectos</h2>
       <ul className="projects">{projects}</ul>
     </>
   );

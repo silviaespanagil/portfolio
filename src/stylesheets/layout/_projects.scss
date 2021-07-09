@@ -1,20 +1,47 @@
+.projectsTitle {
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 25px;
+}
 .projects {
-  background: $colorNoWhite;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
+  background-image: url("../../images/circles/circleYellow.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 300px;
+
+  @include tablet() {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
   &__card {
-    width: 50%;
-    height: 500px;
+    width: 80%;
+    height: 550px;
     margin-bottom: 50px;
+    background: transparent;
+    @include tablet() {
+      width: 50%;
+    }
+    @include desktop() {
+      width: 25%;
+    }
 
     &-items {
-      height: 500px;
+      /*background: linear-gradient(
+        $colorNoWhite,
+        rgba(164, 191, 228, 0.3),
+        rgba(255, 164, 203, 0.3)
+      );*/
+      height: 550px;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: space-between;
-      box-shadow: $colorPink2 5px 8px 10px;
+      box-shadow: $colorPink2 2px 5px 10px;
       border-radius: 25px;
       margin: 25px;
       padding: 25px;
@@ -23,6 +50,9 @@
         box-shadow: $colorBlue 5px 8px 10px;
         transform: scale(1.01);
       }
+    }
+    &--title {
+      text-align: center;
     }
     &--links {
       display: flex;
