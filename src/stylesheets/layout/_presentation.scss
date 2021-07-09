@@ -1,16 +1,23 @@
 .presentation {
   height: 100%;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  place-items: center;
+  justify-content: center;
+  /*flex-direction: column;
   justify-content: center;
   align-items: center;
-  contain: strict;
+  contain: strict;*/
+
   &__portrait {
-    transform: scale(0.5);
+    width: 80%;
   }
 }
 
-.text-animation .text {
+.text-animation {
+  align-self: start;
+}
+
+.text {
   position: relative;
   z-index: 2;
   font-family: $fontMono;
