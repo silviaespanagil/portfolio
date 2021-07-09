@@ -1,5 +1,6 @@
 [
   {
+    "status": "active",
     "id": "1",
     "name": "Directorio Rick and Morty",
     "description": "Buscador alimentado vía API que brinda información sobre los personajes de la serie",
@@ -8,6 +9,7 @@
     "imgURL": "https://user-images.githubusercontent.com/81619759/122358191-b5d88300-cf54-11eb-9261-3359076e6d5b.png"
   },
   {
+    "status": "active",
     "id": "2",
     "name": "Buscador de series",
     "description": "Aplicación web alimentada vía API permite guardar series y agregarlas a favoritos",
@@ -16,6 +18,7 @@
     "imgURL": "https://user-images.githubusercontent.com/81619759/119475543-88c9f380-bd4d-11eb-9c80-5773ec929ee3.png"
   },
   {
+    "status": "active",
     "id": "3",
     "name": "Juego - Adivina el número",
     "description": "Juego de adivinanza en el que debes adivinar el número escogido por el ordenador. ¿Podrás ganar?",
@@ -24,6 +27,7 @@
     "imgURL": "https://user-images.githubusercontent.com/81619759/124809737-be731680-df60-11eb-8a13-8153f06d6ca2.png"
   },
   {
+    "status": "active",
     "id": "4",
     "name": "Website Layout",
     "description": "Pixel perfect design to code proyect.",
