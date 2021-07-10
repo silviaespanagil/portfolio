@@ -1,0 +1,10 @@
+.tech {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__title {
+    @include titles();
+  }
+  &__items {
+  }
+}

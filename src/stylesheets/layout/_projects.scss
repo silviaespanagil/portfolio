@@ -1,7 +1,7 @@
 .projectsTitle {
   text-align: center;
-  font-size: 2rem;
-  padding-bottom: 25px;
+  @include titles(); /* font-size: 2rem;
+  padding-bottom: 25px;*/
 }
 .projects {
   display: flex;
