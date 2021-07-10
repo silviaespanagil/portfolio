@@ -3,6 +3,7 @@ import React from "react";
 import Presentation from "./Presentation";
 import AboutMe from "./AboutMe";
 import ProjectList from "./ProjectList";
+import Tech from "./Tech";
 
 //STYLESHEETS
 import "../stylesheets/App.scss";
@@ -12,7 +13,8 @@ function App() {
     <>
       <Presentation />
       <AboutMe />
-      <ProjectList />;
+      <ProjectList />
+      <Tech />
     </>
   );
 }
