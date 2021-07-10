@@ -11,8 +11,8 @@ const Tech = () => {
     "fab fa-slack fa-3x",
   ];
 
-  const techs = techClass.map((tech) => {
-    return <i className={`${tech} tech__items`} />;
+  const techs = techClass.map((tech, index) => {
+    return <i key={index} className={`${tech} tech__items`} />;
   });
 
   return (
