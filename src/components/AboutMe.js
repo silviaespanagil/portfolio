@@ -1,5 +1,3 @@
-import circleAqua from "../../images/circles/circleAqua.png";
-
 const AboutMe = () => {
   return (
     <>

@@ -1,7 +1,7 @@
 import ProjectCard from "./ProjectCard";
 
 //SERVICES
-import data from "../../data/projects.json";
+import data from "../data/projects.json";
 
 const ProjectList = () => {
   const projects = data.map((project) => {

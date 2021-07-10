@@ -1,0 +1,36 @@
+.bm {
+  &-burger {
+    &-button {
+      position: fixed;
+      width: 26px;
+      height: 20px;
+      left: 36px;
+      top: 36px;
+      /* @include tablet() {
+        display: none;
+      }*/
+    }
+    &-bars {
+      background: $colorPink;
+      &-hover {
+        background: $colorAqua;
+      }
+    }
+  }
+  &-cross {
+    background: $colorAqua;
+    &-button {
+      height: 24px;
+      width: 24px;
+    }
+  }
+  &-menu {
+    background: linear-gradient($colorNoWhite, $colorBlue, $colorPink2);
+    padding: 40px 25px 0;
+    font-size: 1.5rem;
+  }
+  &-item {
+    display: inline-block;
+    padding-bottom: 20px;
+  }
+}
