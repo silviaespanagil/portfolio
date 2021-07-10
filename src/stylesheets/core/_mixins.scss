@@ -19,4 +19,5 @@
 @mixin titles() {
   font-size: 2rem;
   padding: 30px;
+  text-shadow: 2px 2px 4px $colorBlue;
 }
