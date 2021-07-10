@@ -5,6 +5,19 @@
   &__title {
     @include titles();
   }
+  &__itemsWrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
   &__items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $colorBlue;
+    border-radius: 50px;
+    width: 65px;
+    height: 65px;
+    margin: 10px;
   }
 }

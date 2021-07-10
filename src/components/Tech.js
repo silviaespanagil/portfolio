@@ -19,7 +19,7 @@ const Tech = () => {
     <>
       <section className="tech">
         <h2 className="tech__title">Tecnologías y competencias</h2>
-        <div>{techs}</div>
+        <div className="tech__itemsWrap">{techs}</div>
         <div></div>
       </section>
     </>
