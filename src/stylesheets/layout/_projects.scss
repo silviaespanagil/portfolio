@@ -22,7 +22,7 @@
     width: 80%;
     height: 550px;
     margin-bottom: 50px;
-    background: transparent;
+
     @include tablet() {
       width: 50%;
     }
@@ -31,11 +31,7 @@
     }
 
     &-items {
-      /*background: linear-gradient(
-        $colorNoWhite,
-        rgba(164, 191, 228, 0.3),
-        rgba(255, 164, 203, 0.3)
-      );*/
+      background: rgba(255, 255, 255, 0.5);
       height: 550px;
       display: flex;
       flex-direction: column;
