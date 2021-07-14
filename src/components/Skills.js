@@ -1,19 +1,14 @@
+import factData from "../data/facts.json";
+
 const Skills = () => {
-  const Skills = [
-    {
-      code: "far fa-comments",
-      skillName:
-        "Buscador alimentado vía API que brinda información sobre los personajes de la serie",
-    },
-    {
-      code: "far fa-comments",
-      skillName:
-        "Buscador alimentado vía API que brinda información sobre los personajes de la serie",
-    },
-  ];
+  const facts = factData.map((fact, index) => {
+    return <li key={index}>{fact.fact}</li>;
+  });
+  const randomFact = Math.floor(Math.random() * facts.length);
   return (
     <>
-      <h2 className="skills__title">Habilidades y otras competencias</h2>
+      <h2 className="skills__title">Otras curiosidades...</h2>
+      <p>{facts[randomFact]}</p>
     </>
   );
 };

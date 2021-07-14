@@ -1,0 +1,54 @@
+[
+  {
+    "fact": "Mi primer videojuego fue Lemmings en diskette 3.5",
+    "factImg": "https://ibb.co/bRbzbHc"
+  },
+  {
+    "fact": "Tengo un grado en comunicación social",
+    "factImg": "../images/facts/lemmings.jpg"
+  },
+  {
+    "fact": "Vegana por los animales y el mundo",
+    "factImg": "../images/facts/lemmings.jpg"
+  },
+  {
+    "fact": "Aprendí inglés gracias a los videojuegos y  ahora soy C1",
+    "factImg": "../images/facts/lemmings.jpg"
+  },
+  {
+    "fact": "Tengo un perrito adoptado llamado Camus",
+    "factImg": "../images/facts/lemmings.jpg"
+  },
+  {
+    "fact": "He vivido en 3 países diferentes",
+    "factImg": "../images/facts/lemmings.jpg"
+  },
+  {
+    "fact": "He visto El Señor de los Anillos más  de  20 veces",
+    "factImg": "../images/facts/lemmings.jpg"
+  },
+  {
+    "fact": "Estudié Biología por un año y medio",
+    "factImg": "../images/facts/lemmings.jpg"
+  },
+  {
+    "fact": "Soy fan de los libros de ciencia ficción",
+    "factImg": "../images/facts/lemmings.jpg"
+  },
+  {
+    "fact": "Estoy intentando aprender a tocar el piano",
+    "factImg": "../images/facts/lemmings.jpg"
+  },
+  {
+    "fact": "Soy friki del anime y de los videojuegos",
+    "factImg": "../images/facts/lemmings.jpg"
+  },
+  {
+    "fact": "A veces duermo con las  piernas  cruzadas",
+    "factImg": "../images/facts/lemmings.jpg"
+  },
+  {
+    "fact": "Soy buena conversadora",
+    "factImg": "../images/facts/lemmings.jpg"
+  }
+]

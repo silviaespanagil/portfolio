@@ -5,7 +5,9 @@ const Presentation = () => {
   return (
     <>
       <Menu width={230}>
-        <a>Home</a>
+        <a href="/" alt="Home">
+          Home
+        </a>
       </Menu>
       <section className="presentation">
         <img className="presentation__portrait" src={portrait} alt="Silvia" />
