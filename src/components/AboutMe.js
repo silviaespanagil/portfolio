@@ -1,8 +1,7 @@
 const AboutMe = () => {
   return (
     <>
-      <div className="AboutMe__line" />
-      <article className="AboutMe">
+      <article className="AboutMe" id="sobreMi">
         <h2 className="AboutMe__title">Hola mundo...</h2>
         <div className="AboutMe__content">
           <h3 className="AboutMe__content-title">

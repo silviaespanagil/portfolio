@@ -19,7 +19,9 @@ const ProjectList = () => {
   });
   return (
     <>
-      <h2 className="projectsTitle">Proyectos</h2>
+      <h2 className="projectsTitle" id="proyectos">
+        Proyectos
+      </h2>
       <ul className="projects">{projects}</ul>
     </>
   );

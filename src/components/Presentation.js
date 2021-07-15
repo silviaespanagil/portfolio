@@ -6,8 +6,14 @@ const Presentation = () => {
   return (
     <>
       <Menu width={230}>
-        <a href="/" alt="Home">
-          Home
+        <a href="#sobreMi" alt="Sobre mi">
+          Conóceme
+        </a>
+        <a href="#proyectos" alt="Sobre mi">
+          Mis proyectos
+        </a>
+        <a href="#techs" alt="Sobre mi">
+          Tecnologías que uso
         </a>
       </Menu>
       <section className="presentation">

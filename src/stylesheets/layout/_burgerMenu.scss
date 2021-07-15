@@ -12,17 +12,13 @@
     }
     &-bars {
       background: $colorPink;
-      &-hover {
+      &:hover {
         background: $colorAqua;
       }
     }
   }
   &-cross {
     background: $colorAqua;
-    &-button {
-      height: 24px;
-      width: 24px;
-    }
   }
   &-menu {
     background: linear-gradient($colorNoWhite, $colorBlue, $colorPink2);
@@ -30,7 +26,10 @@
     font-size: 1.5rem;
   }
   &-item {
-    display: inline-block;
-    padding-bottom: 20px;
+    padding: 20px 0;
+    color: $colorPink;
+    &:hover {
+      color: $colorPink2;
+    }
   }
 }

@@ -17,7 +17,7 @@ const Tech = () => {
 
   return (
     <>
-      <section className="tech">
+      <section className="tech" id="techs">
         <h2 className="tech__title">Tecnologías</h2>
         <div className="tech__itemsWrap">{techs}</div>
         <div></div>
