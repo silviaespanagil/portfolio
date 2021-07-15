@@ -15,6 +15,40 @@ const Presentation = () => {
         <a href="#techs" alt="Sobre mi">
           Tecnologías que uso
         </a>
+        <nav>
+          <ul className="bm-burger-socialsnav">
+            <li>
+              <a
+                href="https://github.com/silviaespanagil"
+                alt="Silvia's Github"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className=" bm-item fab fa-github-alt fa-2x" />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/silviaespanagil"
+                alt="Silvia's LinkedIn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className=" bm-item fab fa-linkedin-in fa-2x" />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://dev.to/silviaespanagil"
+                alt="Silvia's Blog"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className=" bm-item fab fa-dev fa-2x" />
+              </a>
+            </li>
+          </ul>
+        </nav>
       </Menu>
       <section className="presentation">
         <img className="presentation__portrait" src={portrait} alt="Silvia" />

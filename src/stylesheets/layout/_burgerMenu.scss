@@ -1,5 +1,22 @@
 .bm {
+  &-menu {
+    background: linear-gradient($colorNoWhite, $colorBlue, $colorPink2);
+    padding: 40px 25px 0;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
   &-burger {
+    &-socialsnav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+
+      &-items {
+        align-self: flex-end;
+      }
+    }
     &-button {
       position: fixed;
       width: 26px;
@@ -20,16 +37,18 @@
   &-cross {
     background: $colorAqua;
   }
-  &-menu {
-    background: linear-gradient($colorNoWhite, $colorBlue, $colorPink2);
-    padding: 40px 25px 0;
-    font-size: 1.5rem;
-  }
+
   &-item {
     padding: 20px 0;
     color: $colorPink;
     &:hover {
       color: $colorPink2;
     }
+    /*&-list {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }*/
   }
 }
