@@ -3,7 +3,7 @@
     "status": "active",
     "id": "1",
     "name": "Directorio Rick and Morty",
-    "description": "Buscador alimentado vía API que brinda información sobre los personajes de la serie",
+    "description": "Buscador en React alimentado vía API que brinda información sobre los personajes de la serie",
     "codeLink": "https://github.com/silviaespanagil/modulo-3-evaluacion-final-silviaespanagil",
     "appLink": "https://silviaespanagil.github.io/modulo-3-evaluacion-final-silviaespanagil/#/",
     "imgURL": "https://user-images.githubusercontent.com/81619759/122358191-b5d88300-cf54-11eb-9261-3359076e6d5b.png"
@@ -12,7 +12,7 @@
     "status": "active",
     "id": "2",
     "name": "Buscador de series",
-    "description": "Aplicación web alimentada vía API permite guardar series y agregarlas a favoritos",
+    "description": "Aplicación web en Javascript, alimentada vía API permite guardar series y agregarlas a favoritos",
     "codeLink": "https://github.com/silviaespanagil/modulo-2-evaluacion-final-silviaespanagil",
     "appLink": "http://silviaespanagil.github.io/modulo-2-evaluacion-final-silviaespanagil/",
     "imgURL": "https://user-images.githubusercontent.com/81619759/119475543-88c9f380-bd4d-11eb-9c80-5773ec929ee3.png"
@@ -21,7 +21,7 @@
     "status": "active",
     "id": "3",
     "name": "Juego - Adivina el número",
-    "description": "Juego de adivinanza en el que debes adivinar el número escogido por el ordenador. ¿Podrás ganar?",
+    "description": "Juego en Javascript en el que debes adivinar el número escogido por el ordenador. ¿Podrás ganar?",
     "codeLink": "https://github.com/silviaespanagil/modulo-2-evaluacion-intermedia-silviaespanagil",
     "appLink": "http://silviaespanagil.github.io/modulo-2-evaluacion-intermedia-silviaespanagil/",
     "imgURL": "https://user-images.githubusercontent.com/81619759/124809737-be731680-df60-11eb-8a13-8153f06d6ca2.png"
@@ -29,10 +29,46 @@
   {
     "status": "active",
     "id": "4",
-    "name": "Website Layout",
-    "description": "Pixel perfect design to code proyect.",
+    "name": "Maquetación de una home",
+    "description": "Maquetación pixel perfect de un diseño llevado a código con HTML y CSS",
     "codeLink": "https://github.com/silviaespanagil/modulo-1-evaluacion-final-silviaespanagil",
     "appLink": "https://silviaespanagil.github.io/modulo-1-evaluacion-final-silviaespanagil/",
     "imgURL": "https://user-images.githubusercontent.com/81619759/124810038-1f9aea00-df61-11eb-8418-58171af66978.png"
+  },
+  {
+    "status": "active",
+    "id": "5",
+    "name": "Maquetación de un sitio web",
+    "description": "Maquetación del sitio web del equipo de 404. Con HTML y CSS. Implementación de Formspree.",
+    "codeLink": "https://github.com/silviaespanagil/web-layout-404-tech-team",
+    "appLink": "https://silviaespanagil.github.io/web-layout-404-tech-team/",
+    "imgURL": "https://user-images.githubusercontent.com/81619759/125755526-8a4cfb04-eda4-4970-86a4-78c548e13a88.png"
+  },
+  {
+    "status": "active",
+    "id": "6",
+    "name": "Refactorización de código heredado",
+    "description": "Refactorización de un desarrollo Javascript a React. Diseño e implementación de una base de datos.",
+    "codeLink": "https://github.com/silviaespanagil/legacy-code-javascript-to-react",
+    "appLink": "https://vegandebuggers.herokuapp.com/#/",
+    "imgURL": "https://i.ibb.co/pwKdXdZ/image.png"
+  },
+  {
+    "status": "active",
+    "id": "7",
+    "name": "Crea tu tarjeta de presentación",
+    "description": "Aplicación web en React que te permite personalizar, crear y compartir tu tarjeta de presentación",
+    "codeLink": "https://github.com/silviaespanagil/make-your-business-card",
+    "appLink": "https://silviaespanagil.github.io/make-your-business-card/",
+    "imgURL": "https://user-images.githubusercontent.com/81619759/119809919-da0ceb00-bee5-11eb-837f-317dc6619124.png"
+  },
+  {
+    "status": "active",
+    "id": "8",
+    "name": "Crea tu Pokedex",
+    "description": "Desarrollado en React y alimentado via API.Selecciona tu Pokemon favorito y agrégalo a tu Pokedex",
+    "codeLink": "https://github.com/silviaespanagil/make-your-pokedex",
+    "appLink": "https://silviaespanagil.github.io/make-your-pokedex/#/",
+    "imgURL": "https://user-images.githubusercontent.com/81619759/125288644-a7e10c80-e31e-11eb-9e20-8900383261d8.png"
   }
 ]
