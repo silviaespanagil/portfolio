@@ -3,18 +3,13 @@
     background: linear-gradient($colorNoWhite, $colorBlue, $colorPink2);
     padding: 40px 25px 0;
     font-size: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
   }
   &-burger {
     &-socialsnav {
       display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-
-      &-items {
-        align-self: flex-end;
+      justify-content: flex-start;
+      &-item {
+        padding: 0 10px;
       }
     }
     &-button {
@@ -44,11 +39,10 @@
     &:hover {
       color: $colorPink2;
     }
-    /*&-list {
-      width: 100%;
+    &-list {
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
-    }*/
+    }
   }
 }

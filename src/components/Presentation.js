@@ -15,40 +15,44 @@ const Presentation = () => {
         <a href="#techs" alt="Sobre mi">
           Tecnologías que uso
         </a>
-        <nav>
+
+        <div>
           <ul className="bm-burger-socialsnav">
             <li>
               <a
+                className="bm-burger-socialsnav-item"
                 href="https://github.com/silviaespanagil"
                 alt="Silvia's Github"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className=" bm-item fab fa-github-alt fa-2x" />
+                <i className=" bm-item fab fa-github-alt " />
               </a>
             </li>
             <li>
               <a
+                className="bm-burger-socialsnav-item"
                 href="https://github.com/silviaespanagil"
                 alt="Silvia's LinkedIn"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className=" bm-item fab fa-linkedin-in fa-2x" />
+                <i className=" bm-item fab fa-linkedin-in " />
               </a>
             </li>
             <li>
               <a
+                className="bm-burger-socialsnav-item"
                 href="https://dev.to/silviaespanagil"
                 alt="Silvia's Blog"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className=" bm-item fab fa-dev fa-2x" />
+                <i className=" bm-item fab fa-dev " />
               </a>
             </li>
           </ul>
-        </nav>
+        </div>
       </Menu>
       <section className="presentation">
         <img className="presentation__portrait" src={portrait} alt="Silvia" />
