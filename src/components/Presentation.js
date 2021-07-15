@@ -1,5 +1,6 @@
-import portrait from "../images/silvia2.png";
 import { slide as Menu } from "react-burger-menu";
+import Facts from "./Facts";
+import portrait from "../images/silvia2.png";
 
 const Presentation = () => {
   return (
@@ -14,6 +15,7 @@ const Presentation = () => {
         <div className="text-animation">
           <h2 className="text">Hola mundo, soy Silvia...</h2>
         </div>
+        <Facts />
       </section>
     </>
   );

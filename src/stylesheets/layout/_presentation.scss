@@ -3,10 +3,7 @@
   display: grid;
   place-items: center;
   justify-content: center;
-  /*flex-direction: column;
-  justify-content: center;
   align-items: center;
-  contain: strict;*/
 
   &__portrait {
     width: 80%;
@@ -19,7 +16,7 @@
 
 .text {
   position: relative;
-  z-index: 2;
+  //z-index: 2;
   font-family: $fontMono;
   font-weight: normal;
   font-size: 0.9rem;
