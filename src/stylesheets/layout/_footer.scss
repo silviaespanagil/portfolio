@@ -1,6 +1,12 @@
 .footer {
   margin-top: 50px;
-  box-shadow: 0 -5px 20px -5px $colorPink2;
+  box-shadow: 0 -2px 20px -2px $colorPink2;
+  &__background {
+    background: url("../../images/circles/circleAqua.png");
+    background-repeat: no-repeat;
+    background-position: right top 50px;
+  }
+
   &__wrapper {
     height: 150px;
     display: flex;
