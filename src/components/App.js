@@ -4,6 +4,7 @@ import Presentation from "./Presentation";
 import AboutMe from "./AboutMe";
 import ProjectList from "./ProjectList";
 import Tech from "./Tech";
+import Footer from "./Footer";
 
 //STYLESHEETS
 import "../stylesheets/App.scss";
@@ -15,6 +16,7 @@ function App() {
       <AboutMe />
       <ProjectList />
       <Tech />
+      <Footer />
     </>
   );
 }
