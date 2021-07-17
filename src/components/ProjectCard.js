@@ -17,14 +17,14 @@ const ProjectCard = (props) => {
             alt="link código"
             className="projects__card--code"
           >
-            Ver código
+            <i className="fas fa-code projects__card--links-icons" />
           </a>
           <a
             href={props.appLink}
             alt="link código"
             className="projects__card--web"
           >
-            Web
+            <i className="fas fa-desktop projects__card--links-icons " />
           </a>
         </div>
       </article>

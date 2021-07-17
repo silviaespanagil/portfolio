@@ -27,7 +27,7 @@
 
   &__card {
     width: 70%;
-    height: 550px;
+    //height: 550px;
     margin-bottom: 50px;
 
     @include tablet() {
@@ -39,7 +39,6 @@
 
     &-items {
       background: rgba(255, 255, 255, 0.5);
-      height: 550px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -48,7 +47,9 @@
       border-radius: 25px;
       margin: 25px;
       padding: 25px;
-
+      @include desktop() {
+        height: 550px;
+      }
       &:hover {
         box-shadow: $colorBlue 5px 8px 10px;
         transform: scale(1.01);
@@ -56,15 +57,31 @@
     }
     &--title {
       text-align: center;
+      padding-bottom: 25px;
+    }
+    &--description {
+      padding-bottom: 25px;
     }
     &--links {
       display: flex;
       width: 100%;
       justify-content: space-around;
+
+      &-icons {
+        color: $colorPink;
+        font-size: 1.5rem;
+        &:hover {
+          color: $colorAqua;
+        }
+      }
     }
 
     &--img {
-      width: 250px;
+      height: 50%;
+      width: 100%;
+      object-fit: contain;
+      border-radius: 10px;
+      margin-bottom: 25px;
     }
   }
 }
