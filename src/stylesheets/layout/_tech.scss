@@ -3,21 +3,30 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("../../images/circles/circlePink.png");
+  background: url("../../images/circles/circlePink.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: -100px;
+  @include tablet() {
+    background-position: -50px;
+  }
+  @include desktop() {
+    background: none;
+  }
   &__title {
     @include titles();
   }
   &__itemsWrap {
-    background-image: url("../../images/circles/circleYellow.png");
+    background: url("../../images/circles/circleYellow.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 5px 5px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    @include tablet() {
+      background: none;
+    }
   }
   &__items {
     display: flex;
