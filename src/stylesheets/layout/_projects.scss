@@ -7,7 +7,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url("../../images/circles/circleYellow.png");
+  background: url("../../images/circles/circleYellow.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 300px;
@@ -16,6 +16,13 @@
     flex-wrap: wrap;
     flex-direction: row;
     padding: 0 70px;
+    background-position: 400px;
+  }
+  @include desktop() {
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 0 70px;
+    background-position: 1100px;
   }
 
   &__card {
