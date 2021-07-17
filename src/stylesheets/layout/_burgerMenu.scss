@@ -18,15 +18,9 @@
       height: 20px;
       left: 36px;
       top: 36px;
-      /* @include tablet() {
-        display: none;
-      }*/
     }
     &-bars {
       background: $colorPink;
-      &:hover {
-        background: $colorAqua;
-      }
     }
   }
   &-cross {

@@ -1,10 +1,12 @@
 import { slide as Menu } from "react-burger-menu";
 import Facts from "./Facts";
+import MediaHeader from "./MediaHeader";
 import portrait from "../images/silvia2.png";
 
 const Presentation = () => {
   return (
     <>
+      <MediaHeader />
       <Menu width={230}>
         <a href="#sobreMi" alt="Sobre mi">
           Conóceme
@@ -32,7 +34,7 @@ const Presentation = () => {
             <li>
               <a
                 className="bm-burger-socialsnav-item"
-                href="https://github.com/silviaespanagil"
+                href="https://www.linkedin.com/in/silviaespanagil/"
                 alt="Silvia's LinkedIn"
                 target="_blank"
                 rel="noopener noreferrer"

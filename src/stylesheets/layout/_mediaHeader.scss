@@ -1,0 +1,21 @@
+.mediaHeader {
+  display: none;
+
+  @include tablet() {
+    display: block;
+    position: fixed;
+    top: 85%;
+
+    &__font {
+      font-size: 1.2rem;
+      color: $colorPink;
+      padding: 0 0 20px 30px;
+      @include desktop() {
+        font-size: 1.5rem;
+      }
+      &:hover {
+        color: $colorPink2;
+      }
+    }
+  }
+}

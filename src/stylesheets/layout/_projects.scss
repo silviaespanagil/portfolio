@@ -1,7 +1,6 @@
 .projectsTitle {
   text-align: center;
-  @include titles(); /* font-size: 2rem;
-  padding-bottom: 25px;*/
+  @include titles();
 }
 .projects {
   display: flex;
@@ -16,10 +15,11 @@
   @include tablet() {
     flex-wrap: wrap;
     flex-direction: row;
+    padding: 0 70px;
   }
 
   &__card {
-    width: 80%;
+    width: 70%;
     height: 550px;
     margin-bottom: 50px;
 
