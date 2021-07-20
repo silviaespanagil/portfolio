@@ -11,12 +11,11 @@
 }
 
 .text-animation {
-  align-self: start;
+  align-self: center;
 }
 
 .text {
   position: relative;
-  //z-index: 2;
   font-family: $fontMono;
   font-weight: normal;
   font-size: 0.9rem;

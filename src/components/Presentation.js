@@ -1,20 +1,31 @@
+import { useState } from "react";
 import { slide as Menu } from "react-burger-menu";
 import Facts from "./Facts";
 import MediaHeader from "./MediaHeader";
 import portrait from "../images/silvia2.png";
 
 const Presentation = () => {
+  let [isClosed, setClosed] = useState();
+
+  const closeMenuHandler = () => {
+    if (isClosed === false) {
+      debugger;
+      return setClosed(true);
+    } else {
+      setClosed(false);
+    }
+  };
   return (
     <>
       <MediaHeader />
-      <Menu width={230}>
-        <a href="#sobreMi" alt="Sobre mi">
+      <Menu isOpen={isClosed} width={230}>
+        <a href="#sobreMi" alt="Sobre mi" onClick={closeMenuHandler}>
           Conóceme
         </a>
-        <a href="#proyectos" alt="Sobre mi">
+        <a href="#proyectos" alt="Sobre mi" onClick={closeMenuHandler}>
           Mis proyectos
         </a>
-        <a href="#techs" alt="Sobre mi">
+        <a href="#techs" alt="Sobre mi" onClick={closeMenuHandler}>
           Tecnologías que uso
         </a>
 
