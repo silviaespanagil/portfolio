@@ -16,6 +16,7 @@ function App() {
   let [showGoTop, setshowGoTop] = useState("goTopHidden");
   const [scrollPosition, setSrollPosition] = useState(0);
 
+  //Ref for the ScrollUp action
   const refScrollUp = useRef();
 
   //Scroll position  handler that shows/hide "top" button
@@ -30,7 +31,7 @@ function App() {
     }
   };
 
-  //Go to top handler
+  //Scroll Up Handler
   const handleScrollUp = (e) => {
     refScrollUp.current.scrollIntoView({ behavior: "smooth" });
   };
