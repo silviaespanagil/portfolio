@@ -5,12 +5,12 @@
 .goTop {
   display: block;
   &__text {
-    // position: absolute;
     position: fixed;
     top: 93%;
     left: 90%;
     cursor: pointer;
-    border: 1px solid $colorNoBlack;
+    border-bottom: 1px dotted $colorNoBlack;
+    box-shadow: 2px 2px 5px $colorYellow;
     border-radius: 25px;
     width: 40px;
     height: 40px;
