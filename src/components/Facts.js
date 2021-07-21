@@ -1,3 +1,5 @@
+import React from "react";
+
 //SERVICES
 import factData from "../data/facts.json";
 
@@ -18,4 +20,4 @@ const Facts = () => {
     </>
   );
 };
-export default Facts;
+export default React.memo(Facts);
