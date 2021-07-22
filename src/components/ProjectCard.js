@@ -15,6 +15,8 @@ const ProjectCard = (props) => {
           <a
             href={props.codeLink}
             alt="link código"
+            target="_blank"
+            rel="noreferrer"
             className="projects__card--code"
           >
             <i className="fas fa-code projects__card--links-icons" />
@@ -22,6 +24,8 @@ const ProjectCard = (props) => {
           <a
             href={props.appLink}
             alt="link código"
+            target="_blank"
+            rel="noreferrer"
             className="projects__card--web"
           >
             <i className="fas fa-desktop projects__card--links-icons " />
