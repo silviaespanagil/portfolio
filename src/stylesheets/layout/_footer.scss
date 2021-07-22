@@ -15,6 +15,7 @@
     justify-content: center;
     @include tablet() {
       align-items: flex-end;
+      padding-right: 70px;
     }
   }
   &__items {

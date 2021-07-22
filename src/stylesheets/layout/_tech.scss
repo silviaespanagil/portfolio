@@ -12,6 +12,7 @@
   }
   @include desktop() {
     background: none;
+    padding: 0 90px;
   }
   &__title {
     @include titles();

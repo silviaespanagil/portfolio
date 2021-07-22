@@ -21,7 +21,7 @@
   @include desktop() {
     flex-wrap: wrap;
     flex-direction: row;
-    padding: 0 70px;
+    padding: 0 90px;
     background-position: 1100px;
   }
 
@@ -33,7 +33,7 @@
       width: 50%;
     }
     @include desktop() {
-      width: 25%;
+      width: 33%;
     }
 
     &-items {

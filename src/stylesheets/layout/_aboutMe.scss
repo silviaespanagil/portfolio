@@ -4,7 +4,9 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: -250px 0;
-
+  @include desktop() {
+    padding: 0 90px;
+  }
   &__title {
     background: transparent;
     font-family: $fontMono;
