@@ -8,10 +8,10 @@ const AboutMe = () => {
             Soy Silvia España , Front End Developer
           </h3>
           <p className="AboutMe__content-paragraph">
-            Apasionada y curiosa por naturaleza tras varios años desarrollándome
-            en Marketing y formando parte de equipos multidisciplinares, decidí
-            hacer caso a un llamado de curiosidad y pasión y me apunté a un
-            Bootcamp intensivo.
+            Apasionada y curiosa por naturaleza, tras varios años
+            desarrollándome en Marketing y formando parte de equipos
+            multidisciplinares, decidí hacer caso a un llamado de curiosidad y
+            pasión y me apunté a un Bootcamp intensivo.
           </p>
           <p className="AboutMe__content-paragraph">
             Pasé de diseñar e implementar estrategias de comunicación digital
