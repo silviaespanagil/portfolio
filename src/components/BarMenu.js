@@ -8,7 +8,6 @@ const BarMenu = () => {
   //Menu handler that closes the menu when an option is clicked
   const closeMenuHandler = () => {
     if (isClosed === false) {
-      debugger;
       return setClosed(true);
     } else {
       setClosed(false);
