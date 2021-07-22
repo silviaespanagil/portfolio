@@ -33,7 +33,7 @@
       width: 50%;
     }
     @include desktop() {
-      width: 33%;
+      width: 25%;
     }
 
     &-items {
@@ -48,9 +48,6 @@
       padding: 25px;
       @include tablet() {
         height: 500px;
-      }
-      @include desktop() {
-        transform: scale(0.9);
       }
     }
     &--title {
