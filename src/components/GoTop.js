@@ -3,10 +3,7 @@ const GoTop = (props) => {
     <>
       <div className={props.showGoTop} onClick={props.scrollUp}>
         <section className="goTop">
-          <i
-            className="goTop__text fas fa-chevron-up"
-            class="fas fa-chevron-up"
-          ></i>
+          <i className="goTop__text fas fa-chevron-up"></i>
         </section>
       </div>
     </>

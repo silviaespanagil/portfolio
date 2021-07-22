@@ -10,14 +10,17 @@ const Facts = () => {
   });
 
   //Random number function to take an index number to render
-  const randomFact = Math.floor(Math.random() * facts.length);
+
+  const randomFact = () => {
+    return Math.floor(Math.random() * facts.length);
+  };
 
   return (
-    <>
-      <p className="presentation__facts">
-        Una curiosidad sobre mi: {facts[randomFact]}
+    <div className="presentation__facts">
+      <p className="presentation__facts--fact">
+        Una curiosidad sobre mi: {facts[randomFact()]}
       </p>
-    </>
+    </div>
   );
 };
 export default React.memo(Facts);

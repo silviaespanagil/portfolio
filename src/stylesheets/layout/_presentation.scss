@@ -9,7 +9,11 @@
     width: 80%;
   }
   &__facts {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    &--fact {
+      text-align: center;
+    }
   }
 }
 

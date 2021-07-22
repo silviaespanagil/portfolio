@@ -18,6 +18,7 @@ const ProjectList = () => {
         </li>
       );
     }
+    return { project };
   });
   return (
     <>
