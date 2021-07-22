@@ -65,7 +65,6 @@ const BarMenu = () => {
           </ul>
         </div>
       </Menu>
-      ;
     </>
   );
 };

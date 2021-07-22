@@ -4,9 +4,9 @@ const AboutMe = () => {
       <article className="AboutMe" id="sobreMi">
         <h2 className="AboutMe__title">Hola mundo...</h2>
         <div className="AboutMe__content">
-          <h3 className="AboutMe__content-title">
+          <h1 className="AboutMe__content-title">
             Soy Silvia España , Front End Developer
-          </h3>
+          </h1>
           <p className="AboutMe__content-paragraph">
             Apasionada y curiosa por naturaleza, tras varios años
             desarrollándome en Marketing y formando parte de equipos

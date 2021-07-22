@@ -6,7 +6,7 @@ import portrait from "../images/silvia2.png";
 
 const Presentation = () => {
   return (
-    <>
+    <header className="header">
       <MediaHeader />
       <BarMenu />
       <section className="presentation">
@@ -16,7 +16,7 @@ const Presentation = () => {
         </div>
         <Facts />
       </section>
-    </>
+    </header>
   );
 };
 

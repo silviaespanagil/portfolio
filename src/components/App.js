@@ -48,10 +48,12 @@ function App() {
     <>
       <div ref={refScrollUp}> </div>
       <Presentation />
-      <GoTop showGoTop={showGoTop} scrollUp={handleScrollUp} />
-      <AboutMe />
-      <ProjectList />
-      <Tech />
+      <main>
+        <GoTop showGoTop={showGoTop} scrollUp={handleScrollUp} />
+        <AboutMe />
+        <ProjectList />
+        <Tech />
+      </main>
       <Footer />
     </>
   );
