@@ -47,7 +47,10 @@
       margin: 25px;
       padding: 25px;
       @include tablet() {
-        height: 550px;
+        height: 500px;
+      }
+      @include desktop() {
+        transform: scale(0.9);
       }
     }
     &--title {
