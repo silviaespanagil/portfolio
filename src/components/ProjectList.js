@@ -5,17 +5,19 @@ import data from "../data/projects.json";
 
 const ProjectList = () => {
   const projects = data.map((project) => {
-    return (
-      <li className="projects__card" key={project.id}>
-        <ProjectCard
-          name={project.name}
-          description={project.description}
-          codeLink={project.codeLink}
-          appLink={project.appLink}
-          img={project.imgURL}
-        />
-      </li>
-    );
+    if (project.status === "active") {
+      return (
+        <li className="projects__card" key={project.id}>
+          <ProjectCard
+            name={project.name}
+            description={project.description}
+            codeLink={project.codeLink}
+            appLink={project.appLink}
+            img={project.imgURL}
+          />
+        </li>
+      );
+    }
   });
   return (
     <>

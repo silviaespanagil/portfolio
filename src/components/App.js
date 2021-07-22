@@ -1,5 +1,6 @@
 import React from "react";
 import { useState, useEffect, useRef } from "react";
+
 //COMPONENTS
 import Presentation from "./Presentation";
 import GoTop from "./GoTop";
@@ -19,7 +20,9 @@ function App() {
   //Ref for the ScrollUp action
   const refScrollUp = useRef();
 
-  //Scroll position  handler that shows/hide "top" button
+  //HANDLER FUNCTIONS
+
+  //Scroll position show/hide "top" button
   const handleVisibleButton = () => {
     const position = window.pageYOffset;
     setSrollPosition(position);
@@ -32,7 +35,7 @@ function App() {
   };
 
   //Scroll Up Handler
-  const handleScrollUp = (e) => {
+  const handleScrollUp = () => {
     refScrollUp.current.scrollIntoView({ behavior: "smooth" });
   };
 

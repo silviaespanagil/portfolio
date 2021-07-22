@@ -49,10 +49,6 @@
       @include tablet() {
         height: 550px;
       }
-      &:hover {
-        box-shadow: $colorBlue 5px 8px 10px;
-        transform: scale(1.005);
-      }
     }
     &--title {
       text-align: center;
