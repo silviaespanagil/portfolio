@@ -4,21 +4,23 @@ import ProjectCard from "./ProjectCard";
 import data from "../data/projects.json";
 
 const ProjectList = () => {
-  const projects = data.map((project) => {
-    if (project.status === "active") {
-      return (
-        <li className="projects__card" key={project.id}>
-          <ProjectCard
-            name={project.name}
-            description={project.description}
-            codeLink={project.codeLink}
-            appLink={project.appLink}
-            img={project.imgURL}
-          />
-        </li>
-      );
-    }
-    return { project };
+  const activeProject = data.filter((project) => {
+    return project.status === "active";
+  });
+  console.log(activeProject);
+
+  const projects = activeProject.map((project) => {
+    return (
+      <li className="projects__card" key={project.id}>
+        <ProjectCard
+          name={project.name}
+          description={project.description}
+          codeLink={project.codeLink}
+          appLink={project.appLink}
+          img={project.imgURL}
+        />
+      </li>
+    );
   });
   return (
     <>
