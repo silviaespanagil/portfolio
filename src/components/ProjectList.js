@@ -4,11 +4,12 @@ import ProjectCard from "./ProjectCard";
 import data from "../data/projects.json";
 
 const ProjectList = () => {
+  //FILTER ACTIVE PROJECTS
   const activeProject = data.filter((project) => {
     return project.status === "active";
   });
-  console.log(activeProject);
 
+  //MAP PROJECTS TO RENDER
   const projects = activeProject.map((project) => {
     return (
       <li className="projects__card" key={project.id}>
@@ -22,6 +23,7 @@ const ProjectList = () => {
       </li>
     );
   });
+
   return (
     <>
       <h2 className="projectsTitle" id="proyectos">

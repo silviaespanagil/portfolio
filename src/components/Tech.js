@@ -1,4 +1,5 @@
 const Tech = () => {
+  //TECHS ARRAY
   const techClass = [
     "fab fa-html5 fa-3x",
     "fab fa-css3-alt fa-3x",
