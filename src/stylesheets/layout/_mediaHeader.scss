@@ -3,7 +3,7 @@
   @include tablet() {
     display: block;
     position: fixed;
-    top: 86%;
+    bottom: 1%;
 
     &__font {
       font-size: 1.2rem;
