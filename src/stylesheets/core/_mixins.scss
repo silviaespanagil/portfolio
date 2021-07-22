@@ -21,3 +21,9 @@
   padding: 30px;
   text-transform: uppercase;
 }
+
+@mixin allFonts() {
+  @include tablet() {
+    font-size: 1rem;
+  }
+}
