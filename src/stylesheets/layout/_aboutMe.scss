@@ -28,6 +28,9 @@
       background: transparent;
       padding-bottom: 25px;
       @include allFonts();
+      &-bold {
+        font-weight: bold;
+      }
     }
   }
 }

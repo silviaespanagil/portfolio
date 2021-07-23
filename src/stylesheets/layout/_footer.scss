@@ -20,15 +20,31 @@
   }
   &__items {
     padding: 10px 30px 0;
-    &--links {
+    text-align: center;
+    &--button {
+      margin: 10px 0 0;
+      text-transform: uppercase;
+      border-radius: 15px;
+      line-height: 30px;
+      background: $colorPink;
+      box-shadow: 2px 2px 5px $colorPink2;
       &:hover {
-        color: $colorPink;
+        transform: scale(1.05);
+        background: $colorPink2;
+        box-shadow: 2px 2px 5px $colorPink;
+      }
+      &-link {
+        color: $colorNoWhite;
+
+        padding: 10px;
+        &:hover {
+          color: $colorNoBlack;
+        }
       }
     }
   }
   &__copy {
     display: flex;
-
     align-items: baseline;
     &--text {
       padding-right: 10px;
