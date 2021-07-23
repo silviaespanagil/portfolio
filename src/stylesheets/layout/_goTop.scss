@@ -4,6 +4,7 @@
 
 .goTop {
   display: block;
+
   &__text {
     position: fixed;
     bottom: 5%;
@@ -16,11 +17,15 @@
     height: 30px;
     text-align: center;
     line-height: 30px;
+
     @include tablet() {
       left: 94%;
     }
     @include desktop() {
       left: 95%;
+    }
+    &:hover {
+      transform: scale(1.1);
     }
   }
 }

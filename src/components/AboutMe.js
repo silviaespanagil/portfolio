@@ -10,7 +10,8 @@ const AboutMe = () => {
           <p className="AboutMe__content-paragraph">
             Apasionada y curiosa por naturaleza, tras varios años
             desarrollándome en Marketing y formando parte de equipos
-            multidisciplinares, decidí hacer caso a un llamado{" "}
+            multidisciplinares desarrollando diversos proyectos, decidí hacer
+            caso a un llamado{" "}
             <span className="AboutMe__content-paragraph-bold">
               de curiosidad y pasión
             </span>{" "}
@@ -18,7 +19,8 @@ const AboutMe = () => {
           </p>
           <p className="AboutMe__content-paragraph">
             Pasé de diseñar e implementar estrategias de comunicación digital
-            para desarrollar código que te permita comunicar todo el tiempo.
+            para desarrollar código que permite comunicar todo el tiempo. Porque
+            somos todo lo que hacemos y toda presencia tiene voz.
           </p>
           <p className="AboutMe__content-paragraph">
             En la programación encontré una conjunción de cosas que me gustan:
@@ -33,6 +35,17 @@ const AboutMe = () => {
             Cuando no estoy entre líneas de código me puedes conseguir detrás de
             un libro, jugando videojuegos 🎮 o haciendo rutas con mi familia y
             perro 🐶.
+          </p>
+          <p className="AboutMe__content-paragraph">
+            Actualmente estoy perfeccionando{" "}
+            <span className="AboutMe__content-paragraph-bold">
+              Javascript y React{" "}
+            </span>
+            mientras aprendo un poco de{" "}
+            <span className="AboutMe__content-paragraph-bold">
+              Typescript y Angular ⌨️
+            </span>
+            .
           </p>
         </div>
       </article>
