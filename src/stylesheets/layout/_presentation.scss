@@ -10,11 +10,12 @@
   align-items: center;
 
   &__portrait {
-    width: 80%;
+    height: 80%;
   }
   &__facts {
     display: flex;
     align-items: center;
+    height: 2rem;
     &--fact {
       text-align: center;
     }
