@@ -32,6 +32,9 @@
     @include mobileMedium() {
       width: 70%;
     }
+    @include tablet() {
+      width: 50%;
+    }
     @include desktop() {
       width: 25%;
     }
