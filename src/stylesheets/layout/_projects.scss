@@ -30,7 +30,7 @@
     margin-bottom: 50px;
 
     @include mobileMedium() {
-      width: 50%;
+      width: 70%;
     }
     @include desktop() {
       width: 25%;
