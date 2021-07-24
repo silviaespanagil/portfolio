@@ -10,7 +10,7 @@ const AboutMe = () => {
           <p className="AboutMe__content-paragraph">
             Apasionada y curiosa por naturaleza, tras varios años
             desarrollándome en Marketing y formando parte de equipos
-            multidisciplinares desarrollando diversos proyectos, decidí hacer
+            multidisciplinarios desarrollando diversos proyectos, decidí hacer
             caso a un llamado{" "}
             <span className="AboutMe__content-paragraph-bold">
               de curiosidad y pasión
