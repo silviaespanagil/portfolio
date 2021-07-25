@@ -4,7 +4,7 @@
 }
 
 .presentation {
-  height: 100vh;
+  //height: 100vh;
   display: grid;
   place-items: center;
   align-content: space-around;
@@ -12,7 +12,7 @@
     height: 80%;
   }
   &__facts {
-    padding: 0 7%;
+    padding: 30px 7%;
     display: flex;
     align-self: center;
     align-items: center;
