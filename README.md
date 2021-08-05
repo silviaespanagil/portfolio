@@ -98,4 +98,6 @@ I'm an student and as I stated before am learning a whole lot of Front End Devel
 
 MIT
 
-## Codefactor[![CodeFactor](https://www.codefactor.io/repository/github/silviaespanagil/portfolio/badge)](https://www.codefactor.io/repository/github/silviaespanagil/portfolio)
+## Codefactor
+
+[![CodeFactor](https://www.codefactor.io/repository/github/silviaespanagil/portfolio/badge)](https://www.codefactor.io/repository/github/silviaespanagil/portfolio)
