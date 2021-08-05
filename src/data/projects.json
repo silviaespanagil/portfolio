@@ -9,7 +9,7 @@
     "imgURL": "https://user-images.githubusercontent.com/81619759/122358191-b5d88300-cf54-11eb-9261-3359076e6d5b.png"
   },
   {
-    "status": "inactive",
+    "status": "active",
     "id": "2",
     "name": "Buscador de series",
     "description": "Aplicación web en Javascript, alimentada vía API permite guardar series y agregarlas a favoritos",
@@ -28,7 +28,7 @@
   },
   {
     "status": "active",
-    "id": "4",
+    "id": "8",
     "name": "Maquetación de una home",
     "description": "Maquetación pixel perfect de un diseño llevado a código con HTML y CSS",
     "codeLink": "https://github.com/silviaespanagil/design-to-code-pixel-perfect",
@@ -37,7 +37,7 @@
   },
   {
     "status": "active",
-    "id": "5",
+    "id": "9",
     "name": "Maquetación de un sitio web",
     "description": "Maquetación del sitio web del equipo de 404. Con HTML y CSS. Implementación de Formspree.",
     "codeLink": "https://github.com/silviaespanagil/web-layout-404-tech-team",
@@ -46,7 +46,7 @@
   },
   {
     "status": "active",
-    "id": "6",
+    "id": "4",
     "name": "Refactorización de código heredado",
     "description": "Refactorización de un desarrollo Javascript a React. Diseño e implementación de una base de datos.",
     "codeLink": "https://github.com/silviaespanagil/legacy-code-javascript-to-react",
@@ -55,7 +55,7 @@
   },
   {
     "status": "active",
-    "id": "7",
+    "id": "5",
     "name": "Crea tu tarjeta de presentación",
     "description": "Aplicación web en React que te permite personalizar, crear y compartir tu tarjeta de presentación",
     "codeLink": "https://github.com/silviaespanagil/make-your-business-card",
@@ -64,11 +64,20 @@
   },
   {
     "status": "active",
-    "id": "8",
+    "id": "6",
     "name": "Crea tu Pokedex",
     "description": "Desarrollado en React y alimentado via API.Selecciona tu Pokemon favorito y agrégalo a tu Pokedex",
     "codeLink": "https://github.com/silviaespanagil/make-your-pokedex",
     "appLink": "https://silviaespanagil.github.io/make-your-pokedex/#/",
     "imgURL": "https://user-images.githubusercontent.com/81619759/125288644-a7e10c80-e31e-11eb-9e20-8900383261d8.png"
+  },
+  {
+    "status": "active",
+    "id": "7",
+    "name": "Vacaciones de  Cody",
+    "description": "Parte del concurso #VeranoFrontEnd cuyo reto consistía en desarrollar un sitio web para mostrar las vacaciones de Cody ",
+    "codeLink": "https://github.com/silviaespanagil/vacaciones-cody",
+    "appLink": "https://silviaespanagil.github.io/vacaciones-cody/",
+    "imgURL": "https://user-images.githubusercontent.com/81619759/128363332-6254bf58-ec43-431a-9366-0d174887b566.png"
   }
 ]
