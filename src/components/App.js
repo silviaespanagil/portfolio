@@ -14,7 +14,7 @@ import "../stylesheets/App.scss";
 
 function App() {
   //States
-  let [showGoTop, setshowGoTop] = useState("goTopHidden");
+  const [showGoTop, setshowGoTop] = useState("goTopHidden");
   const [scrollPosition, setSrollPosition] = useState(0);
 
   //Ref for the ScrollUp action
@@ -28,6 +28,8 @@ function App() {
     setSrollPosition(position);
 
     if (scrollPosition > 50) {
+      window.removeEventListener("scroll", handleVisibleButton);
+      console.log(position);
       return setshowGoTop("goTop");
     } else if (scrollPosition < 50) {
       return setshowGoTop("goTopHidden");
