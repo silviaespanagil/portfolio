@@ -66,10 +66,10 @@
     "status": "active",
     "id": "8",
     "name": "World Atlas",
-    "description": "Un atlas digital realizado en React y con información de todos los países del mundo",
-    "codeLink": "https://github.com/silviaespanagil/vacaciones-cody",
+    "description": "Atlas digital alimentado vía API y realizado en React, con información y detalle de todos los países del mundo",
+    "codeLink": "https://github.com/silviaespanagil/world-atlas",
     "appLink": "https://worldatlas.netlify.app/#/",
-    "imgURL": "https://user-images.githubusercontent.com/81619759/128363332-6254bf58-ec43-431a-9366-0d174887b566.png"
+    "imgURL": "https://user-images.githubusercontent.com/81619759/129921090-a7ecc9f3-efc8-458d-9dd5-31f165663e0d.png"
   },
   {
     "status": "active",
@@ -78,7 +78,7 @@
     "description": "Mi primer projecto con Redux. Una aplicación sencilla con un contador que permite sumar y restar números",
     "codeLink": "https://github.com/silviaespanagil/redux-react-counter",
     "appLink": "https://silviaespanagil.github.io/redux-react-counter/",
-    "imgURL": "https://user-images.githubusercontent.com/81619759/131163450-6a4a9042-a3e2-4926-8fe8-2fb24e493ced.gif"
+    "imgURL": "https://ibb.co/MVvtTBr"
   },
   {
     "status": "inactive",
