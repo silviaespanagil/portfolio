@@ -28,24 +28,6 @@
   },
   {
     "status": "active",
-    "id": "8",
-    "name": "Maquetación de una home",
-    "description": "Maquetación pixel perfect de un diseño llevado a código con HTML y CSS",
-    "codeLink": "https://github.com/silviaespanagil/design-to-code-pixel-perfect",
-    "appLink": "https://silviaespanagil.github.io/design-to-code-pixel-perfect/",
-    "imgURL": "https://user-images.githubusercontent.com/81619759/124810038-1f9aea00-df61-11eb-8418-58171af66978.png"
-  },
-  {
-    "status": "active",
-    "id": "9",
-    "name": "Maquetación de un sitio web",
-    "description": "Maquetación del sitio web del equipo de 404. Con HTML y CSS. Implementación de Formspree.",
-    "codeLink": "https://github.com/silviaespanagil/web-layout-404-tech-team",
-    "appLink": "https://silviaespanagil.github.io/web-layout-404-tech-team/",
-    "imgURL": "https://user-images.githubusercontent.com/81619759/125755526-8a4cfb04-eda4-4970-86a4-78c548e13a88.png"
-  },
-  {
-    "status": "active",
     "id": "4",
     "name": "Refactorización de código heredado",
     "description": "Refactorización de un desarrollo Javascript a React. Diseño e implementación de una base de datos.",
@@ -79,5 +61,41 @@
     "codeLink": "https://github.com/silviaespanagil/vacaciones-cody",
     "appLink": "https://silviaespanagil.github.io/vacaciones-cody/",
     "imgURL": "https://user-images.githubusercontent.com/81619759/128363332-6254bf58-ec43-431a-9366-0d174887b566.png"
+  },
+  {
+    "status": "active",
+    "id": "8",
+    "name": "World Atlas",
+    "description": "Un atlas digital realizado en React y con información de todos los países del mundo",
+    "codeLink": "https://github.com/silviaespanagil/vacaciones-cody",
+    "appLink": "https://worldatlas.netlify.app/#/",
+    "imgURL": "https://user-images.githubusercontent.com/81619759/128363332-6254bf58-ec43-431a-9366-0d174887b566.png"
+  },
+  {
+    "status": "active",
+    "id": "9",
+    "name": "Contador manual",
+    "description": "Mi primer projecto con Redux. Una aplicación sencilla con un contador que permite sumar y restar números",
+    "codeLink": "https://github.com/silviaespanagil/redux-react-counter",
+    "appLink": "https://silviaespanagil.github.io/redux-react-counter/",
+    "imgURL": "https://user-images.githubusercontent.com/81619759/131163450-6a4a9042-a3e2-4926-8fe8-2fb24e493ced.gif"
+  },
+  {
+    "status": "inactive",
+    "id": "10",
+    "name": "Maquetación de una home",
+    "description": "Maquetación pixel perfect de un diseño llevado a código con HTML y CSS",
+    "codeLink": "https://github.com/silviaespanagil/design-to-code-pixel-perfect",
+    "appLink": "https://silviaespanagil.github.io/design-to-code-pixel-perfect/",
+    "imgURL": "https://user-images.githubusercontent.com/81619759/124810038-1f9aea00-df61-11eb-8418-58171af66978.png"
+  },
+  {
+    "status": "active",
+    "id": "11",
+    "name": "Maquetación de un sitio web",
+    "description": "Maquetación del sitio web del equipo de 404. Con HTML y CSS. Implementación de Formspree.",
+    "codeLink": "https://github.com/silviaespanagil/web-layout-404-tech-team",
+    "appLink": "https://silviaespanagil.github.io/web-layout-404-tech-team/",
+    "imgURL": "https://user-images.githubusercontent.com/81619759/125755526-8a4cfb04-eda4-4970-86a4-78c548e13a88.png"
   }
 ]
