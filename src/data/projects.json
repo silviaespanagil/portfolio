@@ -1,11 +1,11 @@
 [
   {
-    "status": "inactive",
+    "status": "active",
     "id": "1",
     "name": "Directorio Rick and Morty",
     "description": "Buscador en React alimentado vía API que brinda información sobre los personajes de la serie",
-    "codeLink": "https://github.com/silviaespanagil/rick-and-morty-directory",
-    "appLink": "https://silviaespanagil.github.io/rick-and-morty-directory/#/",
+    "codeLink": "https://github.com/silviaespanagil/pokedex-challennge",
+    "appLink": "https://github.com/silviaespanagil/pokedex-challennge",
     "imgURL": "https://user-images.githubusercontent.com/81619759/122358191-b5d88300-cf54-11eb-9261-3359076e6d5b.png"
   },
   {
@@ -104,7 +104,7 @@
     "name": "Pokedex",
     "description": "Atrápalos a todos con esta app. Desarrollada con SwiftUI, Combine y CoreData. ",
     "codeLink": "https://github.com/silviaespanagil/pokedex-challennge",
-    "appLink": "",
+    "appLink": "https://github.com/silviaespanagil/pokedex-challennge",
     "imgURL": "https://user-images.githubusercontent.com/81619759/172049653-cdeb28e3-311b-4c51-8e02-35b6b8f19dfe.png"
   }
 ]
