@@ -1,6 +1,6 @@
 [
   {
-    "status": "active",
+    "status": "inactive",
     "id": "1",
     "name": "Directorio Rick and Morty",
     "description": "Buscador en React alimentado vía API que brinda información sobre los personajes de la serie",
@@ -9,7 +9,7 @@
     "imgURL": "https://user-images.githubusercontent.com/81619759/122358191-b5d88300-cf54-11eb-9261-3359076e6d5b.png"
   },
   {
-    "status": "active",
+    "status": "inactive",
     "id": "2",
     "name": "Buscador de series",
     "description": "Aplicación web en Javascript, alimentada vía API permite guardar series y agregarlas a favoritos",
@@ -18,7 +18,7 @@
     "imgURL": "https://user-images.githubusercontent.com/81619759/119475543-88c9f380-bd4d-11eb-9c80-5773ec929ee3.png"
   },
   {
-    "status": "active",
+    "status": "inactive",
     "id": "3",
     "name": "Juego - Adivina el número",
     "description": "Juego en Javascript en el que debes adivinar el número escogido por el ordenador. ¿Podrás ganar?",
@@ -27,7 +27,7 @@
     "imgURL": "https://user-images.githubusercontent.com/81619759/124809737-be731680-df60-11eb-8a13-8153f06d6ca2.png"
   },
   {
-    "status": "active",
+    "status": "inactive",
     "id": "4",
     "name": "Refactorización de código heredado",
     "description": "Refactorización de un desarrollo Javascript a React. Diseño e implementación de una base de datos.",
@@ -36,7 +36,7 @@
     "imgURL": "https://i.ibb.co/pwKdXdZ/image.png"
   },
   {
-    "status": "active",
+    "status": "inactive",
     "id": "5",
     "name": "Crea tu tarjeta de presentación",
     "description": "Aplicación web en React que te permite personalizar, crear y compartir tu tarjeta de presentación",
@@ -45,7 +45,7 @@
     "imgURL": "https://user-images.githubusercontent.com/81619759/119809919-da0ceb00-bee5-11eb-837f-317dc6619124.png"
   },
   {
-    "status": "active",
+    "status": "inactive",
     "id": "6",
     "name": "Crea tu Pokedex",
     "description": "Desarrollado en React y alimentado via API.Selecciona tu Pokemon favorito y agrégalo a tu Pokedex",
@@ -54,7 +54,7 @@
     "imgURL": "https://user-images.githubusercontent.com/81619759/125288644-a7e10c80-e31e-11eb-9e20-8900383261d8.png"
   },
   {
-    "status": "active",
+    "status": "inactive",
     "id": "7",
     "name": "Vacaciones de  Cody",
     "description": "Parte del concurso #VeranoFrontEnd cuyo reto consistía en desarrollar un sitio web para mostrar las vacaciones de Cody ",
@@ -63,7 +63,7 @@
     "imgURL": "https://user-images.githubusercontent.com/81619759/128363332-6254bf58-ec43-431a-9366-0d174887b566.png"
   },
   {
-    "status": "active",
+    "status": "inactive",
     "id": "8",
     "name": "World Atlas",
     "description": "Atlas digital alimentado vía API y realizado en React, con información y detalle de todos los países del mundo",
@@ -72,7 +72,7 @@
     "imgURL": "https://user-images.githubusercontent.com/81619759/129921090-a7ecc9f3-efc8-458d-9dd5-31f165663e0d.png"
   },
   {
-    "status": "active",
+    "status": "inactive",
     "id": "9",
     "name": "Contador manual",
     "description": "Mi primer projecto con Redux. Una aplicación sencilla con un contador que permite sumar y restar números",
@@ -90,12 +90,21 @@
     "imgURL": "https://user-images.githubusercontent.com/81619759/124810038-1f9aea00-df61-11eb-8418-58171af66978.png"
   },
   {
-    "status": "active",
+    "status": "inactive",
     "id": "11",
     "name": "Maquetación de un sitio web",
     "description": "Maquetación del sitio web del equipo de 404. Con HTML y CSS. Implementación de Formspree.",
     "codeLink": "https://github.com/silviaespanagil/web-layout-404-tech-team",
     "appLink": "https://silviaespanagil.github.io/web-layout-404-tech-team/",
     "imgURL": "https://user-images.githubusercontent.com/81619759/125755526-8a4cfb04-eda4-4970-86a4-78c548e13a88.png"
+  }
+  {
+    "status": "active",
+    "id": "12",
+    "name": "Pokedex",
+    "description": "Atrápalos a todos con esta app. Desarrollada con SwiftUI, Combine y CoreData. ",
+    "codeLink": "https://github.com/silviaespanagil/pokedex-challennge",
+    "appLink": "",
+    "imgURL": "https://user-images.githubusercontent.com/81619759/172049653-cdeb28e3-311b-4c51-8e02-35b6b8f19dfe.png"
   }
 ]
